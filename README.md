@@ -16,7 +16,7 @@
 
 # Bull used for jobs
 
-# I added env.emaple file, Please update database url as local or cloud any of one is prefer
+# I added env.exaple file, Please update database url as local or cloud any of one is prefer
 
 # Also used node_scheduler for job
 
