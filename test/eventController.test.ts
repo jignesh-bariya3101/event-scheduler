@@ -6,7 +6,7 @@ import { Event } from "../src/models/event";
 // Connect to a test database before running tests
 beforeAll(async () => {
   const mongoURI =
-    "mongodb+srv://jignesh-bariya:qdP7nFoHmevmFAhn@cluster0.cs749lg.mongodb.net/eventScheduler";
+    "mongod://localhost:27017/eventScheduler";
   await mongoose.connect(mongoURI, {});
 });
 
